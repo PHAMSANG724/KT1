@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PSang_KT1</string>
+    <string name="ho_va_ten">Họ và Tên</string>
+    <string name="capbac">Cấp bậc</string>
+    <string name="noicongtac">Nơi công tác</string>
+    <string name="sosao">Số sao</string>
+    <string name="quoc_gia">Quốc gia</string>
+</resources>

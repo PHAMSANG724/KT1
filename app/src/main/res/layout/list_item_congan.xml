@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageviewHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/cong_an" />
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/ho_va_ten"
+            android:textSize="20sp"
+            android:id="@+id/tv_hovaten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/capbac"
+            android:textSize="20sp"
+            android:id="@+id/tv_capbac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/noicongtac"
+            android:textSize="20sp"
+            android:id="@+id/tv_noicongtac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/quoc_gia"
+            android:textSize="20sp"
+            android:id="@+id/tv_quocgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/sosao"
+            android:textSize="20sp"
+            android:id="@+id/tv_sosao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
